@@ -1,0 +1,33 @@
+button {
+    height: 20px;
+    width: 40px;
+    position: absolute;
+    top: 100%;
+    left:0%;
+    gap: 3em;
+    background-color: black;
+    color: white;
+
+}
+.calculator-grid {
+    position: absolute;
+    left:50%;
+    top: 45%;
+    width: 160px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, .75);
+    
+}
+.output {
+    grid-column: 1 / -1;
+    
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+}
+.function {
+    color: white;
+}
